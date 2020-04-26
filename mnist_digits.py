@@ -15,8 +15,8 @@ style.use("ggplot")
 classes = ["0","1","2","3","4","5","6","7","8","9"]
 
 X, y = loadlocal_mnist(
-        images_path='/home/yash/Desktop/PyImageSearch/DNN_DigitRecognition/train-images.idx3-ubyte', 
-        labels_path='/home/yash/Desktop/PyImageSearch/DNN_DigitRecognition/train-labels.idx1-ubyte')
+        images_path='/home/yash/Desktop/train-images.idx3-ubyte', 
+        labels_path='/home/yash/Desktop/train-labels.idx1-ubyte')
 
 X = X.astype("float32")
 X = X.reshape(-1,28,28,1)
