@@ -7,7 +7,7 @@ img_size = 28
 
 classes = ["0","1","2","3","4","5","6","7","8","9"]
 
-path = '/home/yash/Desktop/PyImageSearch/digits_data/test/49021.png'
+path = '/home/yash/Desktop/49021.png'
 img = cv2.imread(path)
 #print(img.shape)
 gray = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
